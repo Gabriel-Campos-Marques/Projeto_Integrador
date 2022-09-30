@@ -64,6 +64,23 @@ class TelaDeLogin extends StatelessWidget {
                 ),
               ),
             ),
+            Padding(
+              padding: const EdgeInsets.only(top: 8.0),
+              child: Material(
+                borderRadius: BorderRadius.circular(10),
+                child: InkWell(
+                  onTap: () {},
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: const Color.fromRGBO(116, 183, 230, 1),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    width: 300,
+                    height: 100,
+                  ),
+                ),
+              ),
+            )
           ],
         ),
       ),
